@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>wikiwiki</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link href="layout.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div id="randomWiki" class="columns">
+    <div class="column is-3 is-offset-5">
+    <a class="button is-info is-outlined" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">check out a random wiki entry</a>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="column is-3 is-offset-5">
+      <div class="field">
+        <p class="control has-icons-left has-icons-right">
+          <input id="form" style="width: 12em;" class="input is-medium" type="text" placeholder="search for wiki">
+          <span class="icon is-left">
+            <i class="fa fa-search"></i>
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="results"></div>
+
+</div>
+
+</body>
+</html>
